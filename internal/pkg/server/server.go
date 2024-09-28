@@ -3,14 +3,14 @@ package server
 import (
 	"net/http"
 
-	_ "github.com/tiagompalte/golang-clean-arch-template/api"
-	"github.com/tiagompalte/golang-clean-arch-template/application"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/server/routes"
+	_ "github.com/tiagompalte/golang-clean-optimistic-locking/api"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/application"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/server/routes"
 )
 
-// @title						TODO API
+// @title						Optimistic Locking API
 // @version						1.0
-// @description					TODO API
+// @description					Optimistic Locking API
 // @termsOfService				http://swagger.io/terms/
 // @contact.name				API Support
 // @contact.url					http://www.swagger.io/support

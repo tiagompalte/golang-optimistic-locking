@@ -4,11 +4,11 @@ import (
 	contextNative "context"
 	"net/http"
 
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/usecase"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/server/constant"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/auth"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/errors"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/server"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/usecase"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/server/constant"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/auth"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/errors"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/server"
 )
 
 func ValidateExtractUserTokenMiddleware(header string, auth auth.Auth, findUserUUIDUseCase usecase.FindUserUUIDUseCase) server.Middleware {

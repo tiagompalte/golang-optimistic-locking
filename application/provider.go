@@ -2,9 +2,9 @@ package application
 
 import (
 	"github.com/google/wire"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/usecase"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/infra"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/usecase"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/infra"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg"
 )
 
 var ProviderSet = wire.NewSet(

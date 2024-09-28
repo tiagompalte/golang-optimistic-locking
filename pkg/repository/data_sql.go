@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/tiagompalte/golang-clean-arch-template/configs"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/errors"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/configs"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/errors"
 )
 
 type DataSql struct {

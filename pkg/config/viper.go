@@ -2,7 +2,7 @@ package config
 
 import (
 	"github.com/spf13/viper"
-	"github.com/tiagompalte/golang-clean-arch-template/configs"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/configs"
 )
 
 type ViperConfig struct{}

@@ -7,7 +7,7 @@ swagger:
 generate: wire swagger
 
 migrate-up: 
-	migrate -path ./scripts/migrations -database "mysql://root:root@tcp(localhost:3306)/db_todo" -verbose up
+	migrate -path ./scripts/migrations -database "mysql://root:root@tcp(localhost:3306)/db_bank" -verbose up
 
 test-unit:
 	go test ./... -cover

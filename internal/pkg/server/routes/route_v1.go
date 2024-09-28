@@ -1,17 +1,15 @@
 package routes
 
 import (
-	"github.com/tiagompalte/golang-clean-arch-template/application"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/server/handler"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/server"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/application"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/server/handler"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/server"
 )
 
 func CreateRouteV1(app application.App) server.GroupRoute {
 	return server.GroupRoute{
 		Path: "/v1",
 		GroupRoutes: []server.GroupRoute{
-			CreateGroupTaskV1(app),
-			CreateGroupCategoryV1(app),
 			CreateGroupCurrentUserV1(app),
 		},
 		Routes: []server.Route{

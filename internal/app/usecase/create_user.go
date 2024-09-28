@@ -3,11 +3,11 @@ package usecase
 import (
 	"context"
 
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/entity"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/repository"
-	errPkg "github.com/tiagompalte/golang-clean-arch-template/internal/pkg/errors"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/crypto"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/errors"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/entity"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/repository"
+	errPkg "github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/errors"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/crypto"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/errors"
 )
 
 type CreateUserUseCase interface {

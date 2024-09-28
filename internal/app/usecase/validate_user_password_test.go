@@ -6,11 +6,11 @@ import (
 	"time"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
-	internalErr "github.com/tiagompalte/golang-clean-arch-template/internal/pkg/errors"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/infra/data"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/crypto"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/errors"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/repository"
+	internalErr "github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/errors"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/infra/data"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/crypto"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/errors"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/repository"
 )
 
 func TestValidateUserPasswordExecute(t *testing.T) {

@@ -3,7 +3,7 @@ package errors
 import (
 	"net/http"
 
-	pkg "github.com/tiagompalte/golang-clean-arch-template/pkg/errors"
+	pkg "github.com/tiagompalte/golang-clean-optimistic-locking/pkg/errors"
 )
 
 // ErrorCodeInvalidUser means that user is invalid

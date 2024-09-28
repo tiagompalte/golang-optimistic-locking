@@ -1,4 +1,4 @@
-# Golang Clean Architecture Template API
+# Golang Optimistic Locking API
 
 ### Doc URL
 

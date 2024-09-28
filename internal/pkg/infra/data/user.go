@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/entity"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/repository"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/errors"
-	pkgRepo "github.com/tiagompalte/golang-clean-arch-template/pkg/repository"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/entity"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/repository"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/errors"
+	pkgRepo "github.com/tiagompalte/golang-clean-optimistic-locking/pkg/repository"
 )
 
 type UserRepository struct {

@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/tiagompalte/golang-clean-arch-template/application"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/server"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/application"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/server"
 )
 
 func main() {

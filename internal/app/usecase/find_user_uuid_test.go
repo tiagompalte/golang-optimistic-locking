@@ -6,8 +6,8 @@ import (
 	"time"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/infra/data"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/repository"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/infra/data"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/repository"
 )
 
 func TestFindUserUUIDExecute(t *testing.T) {

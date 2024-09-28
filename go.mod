@@ -1,4 +1,4 @@
-module github.com/tiagompalte/golang-clean-arch-template
+module github.com/tiagompalte/golang-clean-optimistic-locking
 
 go 1.22
 

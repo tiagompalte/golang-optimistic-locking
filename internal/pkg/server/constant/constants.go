@@ -1,7 +1,7 @@
 package constant
 
 import (
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/context"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/context"
 )
 
 const Authorization = "Authorization"

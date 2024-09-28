@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tiagompalte/golang-clean-arch-template/configs"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/configs"
 )
 
 func ProviderSet() configs.Config {

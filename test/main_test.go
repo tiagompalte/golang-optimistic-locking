@@ -9,10 +9,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/tiagompalte/golang-clean-arch-template/application"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/entity"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/usecase"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/server"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/application"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/entity"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/usecase"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/server"
 )
 
 var app application.App

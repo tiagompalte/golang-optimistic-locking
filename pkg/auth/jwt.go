@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/tiagompalte/golang-clean-arch-template/configs"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/errors"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/configs"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/errors"
 )
 
 type JwtAuth struct {

@@ -3,9 +3,9 @@ package usecase
 import (
 	"context"
 
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/cache"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/errors"
-	pkgRepo "github.com/tiagompalte/golang-clean-arch-template/pkg/repository"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/cache"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/errors"
+	pkgRepo "github.com/tiagompalte/golang-clean-optimistic-locking/pkg/repository"
 )
 
 type HealthCheckUseCase interface {

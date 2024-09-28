@@ -1,10 +1,10 @@
 package application
 
 import (
-	"github.com/tiagompalte/golang-clean-arch-template/configs"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/usecase"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/auth"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/server"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/configs"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/usecase"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/auth"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/server"
 )
 
 type App struct {

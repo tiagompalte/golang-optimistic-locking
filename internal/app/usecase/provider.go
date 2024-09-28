@@ -5,14 +5,6 @@ import (
 )
 
 var ProviderSet = wire.NewSet(
-	NewCreateCategoryUseCaseImpl,
-	NewCreateTaskUseCaseImpl,
-	NewFindAllCategoryUseCaseImpl,
-	NewFindAllTaskUseCaseImpl,
-	NewFindOneTaskUseCaseImpl,
-	NewUpdateTaskDoneUseCaseImpl,
-	NewUpdateTaskUndoneUseCaseImpl,
-	NewDeleteTaskUseCaseImpl,
 	NewHealthCheckUseCaseImpl,
 	NewCreateUserUseCaseImpl,
 	NewValidateUserPasswordUseCaseImpl,

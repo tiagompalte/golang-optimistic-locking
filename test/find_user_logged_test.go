@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/server/constant"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/server/handler"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/server/constant"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/server/handler"
 )
 
 func TestFindUserLoggedHandler(t *testing.T) {

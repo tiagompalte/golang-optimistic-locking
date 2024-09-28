@@ -2,7 +2,7 @@ version: "3"
 
 services:
   app:
-    container_name: golang-clean-arch-template-app
+    container_name: golang-clean-optimistic-locking-app
     build:
       context: .
       dockerfile: Dockerfile
@@ -17,7 +17,7 @@ services:
         condition: service_healthy
 
   redis:
-    container_name: golang-clean-arch-template-cache
+    container_name: golang-clean-optimistic-locking-cache
     image: redis
     command: redis-server
     ports:
@@ -31,7 +31,7 @@ services:
       test: ["CMD", "redis-cli", "ping"]
 
   mysql:
-    container_name: golang-clean-arch-template-db
+    container_name: golang-clean-optimistic-locking-db
     image: mysql:8.0.23
     ports:
       - "3306:3306"
@@ -39,7 +39,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_USER: mysql
       MYSQL_PASSWORD: mysql
-      MYSQL_DATABASE: db_todo
+      MYSQL_DATABASE: db_bank
       LANG: en_US.utf8
     volumes:
       - ./scripts/migrations:/docker-entrypoint-initdb.d

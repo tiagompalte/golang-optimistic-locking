@@ -3,9 +3,9 @@ package usecase
 import (
 	"context"
 
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/entity"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/repository"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/errors"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/entity"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/repository"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/errors"
 )
 
 type FindUserUUIDUseCase interface {

@@ -1,11 +1,11 @@
 package routes
 
 import (
-	"github.com/tiagompalte/golang-clean-arch-template/application"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/server/constant"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/server/handler"
-	"github.com/tiagompalte/golang-clean-arch-template/internal/pkg/server/middleware"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/server"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/application"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/server/constant"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/server/handler"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/pkg/server/middleware"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/server"
 )
 
 func CreateGroupCurrentUserV1(app application.App) server.GroupRoute {

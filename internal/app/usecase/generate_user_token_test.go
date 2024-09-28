@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/tiagompalte/golang-clean-arch-template/internal/app/entity"
-	"github.com/tiagompalte/golang-clean-arch-template/pkg/auth"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/internal/app/entity"
+	"github.com/tiagompalte/golang-clean-optimistic-locking/pkg/auth"
 )
 
 func TestNewGenerateUserTokenExecute(t *testing.T) {
